@@ -1,0 +1,313 @@
+body{
+   margin: 0;
+   height: 80px;
+   padding: 0;
+   max-width: 800px;
+   
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.image{
+    width: 1519px;
+    height: 600px;
+    
+}
+
+nav{
+    background-color: rgb(15, 15, 15);
+    width: 1519px;
+    position: relative;
+    bottom: 610px;
+    text-decoration: none;
+    height: 80px;
+    padding-top: 30px;
+    opacity: 0.4;
+    
+    
+}
+
+li{
+    
+    display: inline-block;
+    float:right;
+    margin-right: 15px;
+    padding: 10px;
+    
+    
+}
+
+li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.texte{
+    position: relative;
+    bottom: 500px;
+    color: snow;
+    padding-left: 50px;
+}
+
+.button{
+    position: relative;
+    bottom: 480px;
+    color: snow;
+    padding-left: 50px;
+    color: tomato;
+}
+
+button{
+    
+    width: 180px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 80px;
+    background-color: rgb(255, 94, 0);
+    
+}
+
+button:hover {
+    background-color: rgb(117, 236, 245);
+  }
+
+@media screen and(max-width:800px) {
+    
+    
+}
+
+.propos{
+    position: relative;
+    left: 590px;
+    bottom: 290px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 75px;
+    
+}
+
+.section2{
+    display: flex;
+    width: 1518px;
+    position: relative;
+    bottom: 270px;
+    
+}
+
+.slide{
+    
+    width: 754px;
+    height: 646px;
+    
+}
+
+.div-droite{
+    background-color: rgba(255, 166, 0, 0.89);
+    width: 818px;
+    height: 650px;
+}
+
+.opacité{
+    background-color: rgb(0, 0, 0);
+    width: 755px;
+    height: 650px;
+    bottom: 920px;
+    position: relative;
+    opacity: 0.4;
+}
+
+.div-droite p{
+    font-size: 25px;
+    margin: 20px;
+}
+
+
+.section3{
+    width: 1518px;
+}
+.section3 h1{
+    font-size: 45px;
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+    bottom: 890px;
+    
+}
+  
+
+  .sectio3{
+      width: 1180px;
+      height: 450px;
+      bottom: 800px;
+      position: relative;
+      background-color: rgb(13, 49, 121);
+      padding: 20px;
+      margin-bottom: 150px;
+      left: 160px;
+  }
+
+ .sectio3 p{
+     font-size: 25px;
+     color: rgb(255, 255, 255);
+     
+
+ }
+
+ 
+
+ #grille{
+    width: -0.10px;
+     
+ }
+
+ .container{
+     background-color: rgb(168, 167, 168);
+     width: 1519px;
+     height: 800px;
+     bottom: 900px;
+     position: relative;
+     
+ }
+
+ .container h2{
+     position: relative;
+     text-align: center;
+     font-size: 45px;
+     font-weight: bold;
+     top: 45px;
+     
+     
+ }
+
+ #pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(165, 165, 175);
+    bottom: 900px;
+    height: 600px;
+    width:1540px;
+    position: relative;
+  }
+  
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* width: calc(100% / 3); */
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    height: 460px;
+    bottom: 45px;
+  }
+  
+  .product > .level {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .product > h2 {
+    margin-top: 15px;
+  }
+  
+  .product > ol {
+    margin: 15px 0;
+  }
+  
+  .product > ol > li {
+    padding: 5px 0;
+  }
+  
+  .product > button {
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+  }
+  
+  .product > button:hover {
+    background-color: orange;
+    transition: background-color 1s;
+  }
+ .realisation{
+     background-color: ;
+     margin: 50px;
+     bottom: 900px;
+     position: relative;
+     left: 400px;
+     font-size: 35px;
+     text-transform: uppercase;
+ }
+
+footer{
+    width: 1540px;
+    height: 450px;
+    background-color: rgb(14, 30, 61);
+    padding-bottom: 450px;
+    position: relative;
+    bottom: 900px;
+    
+}
+
+#icon{
+    padding: 45px;
+    top: 150px;
+    position: relative;
+}
+
+#arobase{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    left: 1000px;
+    top:37px;
+    position: relative;
+}
+
+input{
+   
+   height: 50px;
+   padding-right: 500px;
+   margin: 10px;
+
+}
+
+form{
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+   
+form h1{
+    font-size: 45px;
+    position: relative;
+    
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+  
+textarea{
+    width: 655px;
+}
+  
+  @media (max-width: 800px) {
+    #pricing {
+      flex-direction: column;
+    }
+    .product {
+      max-width: 300px;
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+  }
+  
+ 
